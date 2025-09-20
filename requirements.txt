@@ -1,0 +1,11 @@
+streamlit
+groq
+Pillow
+python-dotenv
+torch
+torchvision
+torchxrayvision
+scikit-image
+numpy
+matplotlib
+python-docx
