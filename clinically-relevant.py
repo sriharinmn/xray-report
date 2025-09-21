@@ -120,12 +120,17 @@ CONFIDENCE_LANGUAGE = {
     }
 }
 
-# Page configuration
+
+
+
+
 st.set_page_config(
     page_title="Chest X-Ray Analysis",
     page_icon="🩺",
-    layout="wide"
+    layout="wide",
+    menu_items={}  # 🚀 This removes the GitHub/Report bug/About links
 )
+
 
 # Enhanced CSS
 st.markdown("""
