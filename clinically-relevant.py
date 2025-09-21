@@ -1519,24 +1519,7 @@ def main():
         """)
         
         st.markdown("---")
-        st.markdown("## 🔧 System Improvements")
-        st.markdown("""
-        **🎯 Advanced Filtering:**
-        - **Before**: Simple probability thresholds
-        - **After**: Multi-layer clinical logic filtering
-        
-        **📊 False Positive Reduction:**
-        - **Before**: ~30-40% false positives
-        - **After**: Significantly reduced through rules
-        
-        **🏥 Clinical Relevance:**
-        - **Before**: All above-threshold findings
-        - **After**: Only clinically relevant findings
-        
-        **📋 Radiologist Workflow:**
-        - **Before**: Manual contradiction resolution
-        - **After**: Automated clinical logic application
-        """)
+        st.markdown("## © 2025 MEDxAI Innovations Pvt Ltd. All rights reserved.")
 
 if __name__ == "__main__":
     main()
