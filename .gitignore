@@ -3,3 +3,10 @@
 /final.py
 /final_template.py
 /venv
+/anglefix.py
+/__pycache__
+/anglefixandtracheaposition.py
+/quickstart.sh
+/.env.example
+/utils/__pycache__
+/models/__pycache__

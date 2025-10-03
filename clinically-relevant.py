@@ -1256,7 +1256,7 @@ def main():
             exam_date = st.date_input("Examination Date", datetime.now().date())
             physician = st.text_input("Referring Physician")
             
-            analyze_button = st.form_submit_button("🔍 Analyze with Enhanced Filtering", use_container_width=True)
+            analyze_button = st.form_submit_button("🔍 Analyze with Enhanced Filtering", width='stretch')  # type: ignore[arg-type]
     
     # Analysis section
     if uploaded_file and analyze_button:
@@ -1332,7 +1332,7 @@ def main():
                                 data=doc_buffer.getvalue(),
                                 file_name=f"enhanced_clinical_xray_report_{patient_info['name'].replace(' ', '_')}_{exam_date.strftime('%Y%m%d')}.docx",
                                 mime="application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-                                use_container_width=True,
+                                width='stretch',  # type: ignore[arg-type]
                                 help="Complete clinical report with rule-based filtering and suppression analysis"
                             )
                         else:
